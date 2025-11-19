@@ -48,7 +48,7 @@ export default function Contact() {
       icon: Linkedin,
       label: 'LinkedIn',
       value: 'Connect on LinkedIn',
-      href: 'https://linkedin.com/in/micahseghetti',
+      href: 'https://www.linkedin.com/in/micah-seghetti-8512a3248/',
       color: 'cyan'
     },
     {

@@ -19,9 +19,11 @@ export default function Hero() {
       <div className={`container mx-auto px-6 relative z-10 transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
         <div className="max-w-4xl mx-auto text-center">
           <div className="mb-6 inline-block">
-            <div className="w-32 h-32 rounded-full bg-gradient-to-br from-emerald-400 to-cyan-500 flex items-center justify-center text-white text-5xl font-bold shadow-2xl shadow-emerald-500/50 animate-pulse-slow">
-              MS
-            </div>
+            <img
+              src="/Micah Sighetti-10.jpeg"
+              alt="Micah Seghetti"
+              className="w-40 h-40 rounded-full object-cover shadow-2xl shadow-emerald-500/50 border-4 border-emerald-400 hover:scale-105 transition-transform duration-300"
+            />
           </div>
 
           <h1 className="text-6xl md:text-7xl font-bold text-white mb-6 tracking-tight">
@@ -64,7 +66,7 @@ export default function Hero() {
               Contact Me
             </a>
             <a
-              href="https://linkedin.com/in/micahseghetti"
+              href="https://www.linkedin.com/in/micah-seghetti-8512a3248/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-6 py-3 bg-slate-800 text-white rounded-lg font-semibold hover:bg-cyan-500 hover:scale-105 transition-all duration-300 border border-slate-700 hover:border-cyan-500 shadow-lg"
